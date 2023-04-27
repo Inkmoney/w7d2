@@ -1,0 +1,14 @@
+.color-change{
+    color: magenta;
+}
+
+.different-color {
+    color: orangered;
+}
+
+h2 {
+    height: 50 px;
+    width: 50;
+    background-color: aqua;
+    border: solid 3px;
+}

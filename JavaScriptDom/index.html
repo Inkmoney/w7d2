@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <h1 id="test">Welcome to book Store</h1>
+    <button id="color-button">Add Color To Text</button>
+
+    <div class="source" contenteditable="true">Grab a copy of a Book!</div>
+    <div class="target" contenteditable="true">....and paste it here to search</div>
+
+    <form name="testData" id="test-data-form">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name">
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name">
+        <button type="submit" id="submit-button">Submit Me!</button>
+    </form>
+
+    <form name="searchBooks" id="search-books-form">
+        <label for="search-books">Books Name</label>
+        <input type="text" name="book-store" id="book-store">
+        <button type="submit" id="search-button">Submit Me!</button>
+    </form>
+
+    <section id="book-store">
+        <h2>Book Store</h2>
+        <ul>
+            <li><a href="https://randombookstore.com/book1">Book 1</a> - $19.99</li>
+            <li><a href="https://randombookstore.com/book2">Book 2</a> - $29.99</li>
+            <li><a href="https://randombookstore.com/book3">Book 3</a> - $39.99</li>
+            <!-- add more books as needed -->
+        </ul>
+    </section>
+</body>
+</html>
